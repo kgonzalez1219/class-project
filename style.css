@@ -1,0 +1,30 @@
+/* entire page */
+body {
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(65, 51, 31);
+}
+
+/* Header area */
+header {
+  margin: 0px auto;
+  width: 960px;
+  background-color: rgb(163, 132, 110);
+
+}
+h1 {
+
+}
+
+header > nav > ul > li {
+    display: inline-block;
+    width: auto;
+
+    background-color: darkcyan;
+}
+
+
+/* Main Body */
+
+
+/* Footer */
