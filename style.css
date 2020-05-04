@@ -21,12 +21,37 @@ h1 {
 header > nav > ul > li {
     display: inline-block;
     width: auto;
+    border: 3px rosybrown;
+    box-sizing: border-box;
+    
 
-    background-color: rgb(14, 13, 13);
+    background-color: rosybrown;
 }
 
 
 /* Main Body */
+
+article > figure > figcaption > img > p 
+
+. center {
+  text-align: center;
+  border: thick;
+}
+
+img {
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+
+  
+}
+
+div > img {
+  margin-inline-start: auto;
+}
+
 
 
 /* Footer */
