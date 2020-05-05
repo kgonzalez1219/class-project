@@ -10,17 +10,37 @@ body {
 /* Header area */
 
 header {
-  margin: 0px auto;
+  margin: 50px auto;
+  height: 375px;
   width: 960px;
   background-color: rgb(163, 132, 110);
+} 
+
+h1 {
+  text-align: center;
 }
+
+header img {
+  width: 300px ;
+  margin-top: 30px auto;
+
+  
+}
+
 
 header>nav>ul>li {
   display: inline-block;
-  width: auto;
-  border: 3px rosybrown;
+  width: 175px;
+  border: 3px rgb(173, 104, 14);
   box-sizing: border-box;
-  background-color: rosybrown;
+  background-color: rgb(99, 113, 236);
+  text-align: center;
+  font-weight: 400;
+  border-radius: 15px;
+}
+
+header > nav {
+  float: center
 }
 
 /* Main Body */
