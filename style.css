@@ -12,7 +12,14 @@ header {
   width: 960px;
   background-color: rgb(163, 132, 110);
   
+float: right;
+}
 
+header > nav {
+  margin: 30px;
+  display:inline-block
+  
+  
 }
 h1 {
 
@@ -48,10 +55,20 @@ img {
   
 }
 
+main {
+  margin: 0px auto
+  width: 960px;
+
+}
+
 div > img {
   margin-inline-start: auto;
 }
 
+article {
+  width: 250px;
+  display: inline-block;
 
+}
 
 /* Footer */
