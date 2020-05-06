@@ -36,12 +36,7 @@ function getProduct() {
 }
 
 
-var name = prompt('what\'s your name?');
-var attemptsAllowed = 2; 
-var attempted = 0;
 
-while (name === '' && attempted !== attemptsAllowed) {
-    name = prompt('would you please tell me your name!?');
-    attempted++;
-}
+
+
 
