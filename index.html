@@ -14,11 +14,24 @@
         <img src="https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pdmaps-beinecke-49-rob_1.jpg?w=400&dpr=1&fit=default&crop=default&auto=format&fm=pjpg&q=75&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=db0e5f283d9b955fad43bd687877ebfa"
             alt="">
         <h1>Art World</h1>
-            <script>askName();</script>
-            <script>offerGreeting();</script>
-            <script>getProduct();</script> 
-            
-        
+        <script>askName();</script>
+        <script>offerGreeting();</script>
+        <script>getProduct();</script>
+
+        <p id="thing"></p>
+
+        <script>
+            var Artists = [ "Famous Artists", "Da Vinci", "Monet", "Van Gough", "Renoit"];
+            var i = 0;
+            var text = "";
+            for (; Artists[i];) {
+                text += Artists[i] + "<br>";
+                i++;
+            }
+            document.getElementById("thing").innerHTML = text;
+        </script>
+
+
         <nav>
             <ul>
                 <li><a href="index.html">Fine Art</a></li>
@@ -83,7 +96,7 @@
         &copy: KG
     </footer>
 
-    
+
 </body>
 
 </html>
