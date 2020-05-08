@@ -35,7 +35,10 @@ function getProduct() {
     return document.write('<p>' + item + '</p>');
 }
 
-
+var i;
+for (i = 0; i < cars.length; i++) {
+  text += cars[i] + "<br>";
+}
 
 
 
